@@ -41,7 +41,7 @@ export default function Home() {
           </h1>
           <h2 className="text-xl font-medium text-100">김동우</h2>
           <p className="mt-4 max-w-[700px] text-gray-300 md:text-xl">
-            3D 제작 포트폴리오
+            3D 배경 포트폴리오
           </p>
         </div>
             <img
@@ -82,53 +82,53 @@ export default function Home() {
   </div>
 </div>
 <div className="mx-auto grid grid-cols-1 gap-6 sm:grid-cols-2 lg:max-w-5xl mt-2.5">
-  <Link className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800 mt-2.5" href="#">
-    <img alt="Project" className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110" height="310" src="/img/pp.jpg" width="550" />
-    <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
+ <div className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all  dark:bg-gray-800 mt-2.5">
+    <img alt="Project" className="aspect-video w-full object-cover object-center transition-all " height="310" src="/img/pp.jpg" width="550" />
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all ">
       <h3 className="text-lg font-bold text-gray-50">프랍</h3>
       <p className="mt-1 text-sm text-gray-400">환풍기</p>
     </div>
-  </Link>
+  </div>
 
-  <Link className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800 mt-2.5" href="#">
-    <img alt="Project" className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110" height="310" src="/img/x.jpg" width="550" />
-    <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
+  <div className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all  dark:bg-gray-800 mt-2.5">
+    <img alt="Project" className="aspect-video w-full object-cover object-center transition-all " height="310" src="/img/x.jpg" width="550" />
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all ">
       <h3 className="text-lg font-bold text-gray-50">프랍</h3>
       <p className="mt-1 text-sm text-gray-400">쓰레기봉투</p>
     </div>
-  </Link>
+  </div>
 
-      <Link className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800" href="#">
-        <img alt="Project" className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110" height="310" src="/img/snow.jpg" width="550" />
-        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
-          <h3 className="text-lg font-bold text-gray-50">캐릭터</h3>
-          <p className="mt-1 text-sm text-gray-400">스노우 맨</p>
-        </div>
-      </Link>
+  <div className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all  dark:bg-gray-800">
+    <img alt="Project" className="aspect-video w-full object-cover object-center transition-all " height="310" src="/img/snow.jpg" width="550" />
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all ">
+      <h3 className="text-lg font-bold text-gray-50">캐릭터</h3>
+      <p className="mt-1 text-sm text-gray-400">스노우 맨</p>
+    </div>
+  </div>
 
-      <Link className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800" href="#">
-        <img alt="Project" className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110" height="310" src="/img/buri.jpg" width="550" />
-        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
-          <h3 className="text-lg font-bold text-gray-50">캐릭터</h3>
-          <p className="mt-1 text-sm text-gray-400">부리부리몬</p>
-        </div>
-      </Link>
+  <div className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all  dark:bg-gray-800">
+    <img alt="Project" className="aspect-video w-full object-cover object-center transition-all " height="310" src="/img/buri.jpg" width="550" />
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all ">
+      <h3 className="text-lg font-bold text-gray-50">캐릭터</h3>
+      <p className="mt-1 text-sm text-gray-400">부리부리몬</p>
+    </div>
+  </div>
 
-      <Link className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800" href="#">
-        <img alt="Project" className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110" height="310" src="/img/forg.jpg" width="550" />
-        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
-          <h3 className="text-lg font-bold text-gray-50">캐릭터</h3>
-          <p className="mt-1 text-sm text-gray-400">개구리 캐릭터</p>
-        </div>
-      </Link>
+  <div className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all  dark:bg-gray-800">
+    <img alt="Project" className="aspect-video w-full object-cover object-center transition-all " height="310" src="/img/forg.jpg" width="550" />
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all ">
+      <h3 className="text-lg font-bold text-gray-50">캐릭터</h3>
+      <p className="mt-1 text-sm text-gray-400">개구리 캐릭터</p>
+    </div>
+  </div>
 
-      <Link className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800" href="#">
-        <img alt="Project" className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110" height="310" src="/img/ani.gif.gif" width="550" />
-        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
-          <h3 className="text-lg font-bold text-gray-50">애니메이션</h3>
-          <p className="mt-1 text-sm text-gray-400">검 공격 모션</p>
-        </div>
-      </Link>
+  <div className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all  dark:bg-gray-800">
+    <img alt="Project" className="aspect-video w-full object-cover object-center transition-all " height="310" src="/img/ani.gif.gif" width="550" />
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all ">
+      <h3 className="text-lg font-bold text-gray-50">애니메이션</h3>
+      <p className="mt-1 text-sm text-gray-400">검 공격 모션</p>
+    </div>
+  </div>
     </div>
   </div>
 </section>
@@ -137,7 +137,7 @@ export default function Home() {
     <div className="space-y-3">
     <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-white text-center">연락처</h2>
 <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 text-center">
-    연락을 기다리고 있습니다.
+    연락을 기다리고 있습니다
             </p>
           </div>
           <div className="mx-auto w-full max-w-sm space-y-2">
@@ -152,36 +152,7 @@ export default function Home() {
       </section>
     </main>
     <footer className="bg-gray-900 text-gray-50 p-6 md:py-12 w-full">
-  <div className="container max-w-7xl mx-auto text-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 text-sm">
-    <div className="grid gap-1">
-      <h3 className="font-semibold">About</h3>
-      <Link href="#">About Me</Link>
-      <Link href="#">My Projects</Link>
-    </div>
-    <div className="grid gap-1">
-      <h3 className="font-semibold">Services</h3>
-      <Link href="#">Web Development</Link>
-      <Link href="#">Mobile Development</Link>
-      <Link href="#">Desktop Development</Link>
-    </div>
-    <div className="grid gap-1">
-      <h3 className="font-semibold">Contact</h3>
-      <Link href="#">Get in Touch</Link>
-      <Link href="#">Email</Link>
-      <Link href="#">LinkedIn</Link>
-    </div>
-    <div className="grid gap-1">
-      <h3 className="font-semibold">Legal</h3>
-      <Link href="#">Privacy Policy</Link>
-      <Link href="#">Terms of Service</Link>
-    </div>
-    <div className="grid gap-1">
-      <h3 className="font-semibold">Social</h3>
-      <Link href="#">Twitter</Link>
-      <Link href="#">GitHub</Link>
-      <Link href="#">Instagram</Link>
-    </div>
-  </div>
+
 </footer>
   </div>
   );
