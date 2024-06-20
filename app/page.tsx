@@ -43,7 +43,7 @@ export default function Home() {
   alt="Hero"
   className="mx-auto aspect-[5/3] overflow-hidden rounded-xl object-cover object-center"
   height="300"
-  src="/img/test01.jpg"
+  src="/img/x.jpg"
   width="1200"
 />
           </div>
@@ -62,9 +62,9 @@ export default function Home() {
           <img
             alt="About"
             className="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center"
-            height="550"
-            src="/placeholder.svg"
-            width="550"
+            height="720"
+            src="/img/rander02.jpg"
+            width="1280"
           />
         </div>
       </section>
@@ -199,37 +199,37 @@ export default function Home() {
       </section>
     </main>
     <footer className="bg-gray-900 text-gray-50 p-6 md:py-12 w-full">
-      <div className="container max-w-7xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 text-sm">
-        <div className="grid gap-1">
-          <h3 className="font-semibold">About</h3>
-          <Link href="#">About Me</Link>
-          <Link href="#">My Projects</Link>
-        </div>
-        <div className="grid gap-1">
-          <h3 className="font-semibold">Services</h3>
-          <Link href="#">Web Development</Link>
-          <Link href="#">Mobile Development</Link>
-          <Link href="#">Desktop Development</Link>
-        </div>
-        <div className="grid gap-1">
-          <h3 className="font-semibold">Contact</h3>
-          <Link href="#">Get in Touch</Link>
-          <Link href="#">Email</Link>
-          <Link href="#">LinkedIn</Link>
-        </div>
-        <div className="grid gap-1">
-          <h3 className="font-semibold">Legal</h3>
-          <Link href="#">Privacy Policy</Link>
-          <Link href="#">Terms of Service</Link>
-        </div>
-        <div className="grid gap-1">
-          <h3 className="font-semibold">Social</h3>
-          <Link href="#">Twitter</Link>
-          <Link href="#">GitHub</Link>
-          <Link href="#">Instagram</Link>
-        </div>
-      </div>
-    </footer>
+  <div className="container max-w-7xl mx-auto text-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 text-sm">
+    <div className="grid gap-1">
+      <h3 className="font-semibold">About</h3>
+      <Link href="#">About Me</Link>
+      <Link href="#">My Projects</Link>
+    </div>
+    <div className="grid gap-1">
+      <h3 className="font-semibold">Services</h3>
+      <Link href="#">Web Development</Link>
+      <Link href="#">Mobile Development</Link>
+      <Link href="#">Desktop Development</Link>
+    </div>
+    <div className="grid gap-1">
+      <h3 className="font-semibold">Contact</h3>
+      <Link href="#">Get in Touch</Link>
+      <Link href="#">Email</Link>
+      <Link href="#">LinkedIn</Link>
+    </div>
+    <div className="grid gap-1">
+      <h3 className="font-semibold">Legal</h3>
+      <Link href="#">Privacy Policy</Link>
+      <Link href="#">Terms of Service</Link>
+    </div>
+    <div className="grid gap-1">
+      <h3 className="font-semibold">Social</h3>
+      <Link href="#">Twitter</Link>
+      <Link href="#">GitHub</Link>
+      <Link href="#">Instagram</Link>
+    </div>
+  </div>
+</footer>
   </div>
   );
 }
