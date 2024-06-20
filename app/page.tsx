@@ -41,7 +41,7 @@ export default function Home() {
           </h1>
           <h2 className="text-xl font-medium text-100">김동우</h2>
           <p className="mt-4 max-w-[700px] text-gray-300 md:text-xl">
-            3D 배경 포트폴리오
+            3D 제작 포트폴리오
           </p>
         </div>
             <img
