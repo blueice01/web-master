@@ -27,10 +27,15 @@ export default function Home() {
       </nav>
     </header>
     <main className="flex-1">
-  <section className="w-full pt-12 md:pt-24 lg:pt-32 lg:pb-32 bg-indigo-900 text-gray-50 flex justify-center">
-    <div className="container px-4 md:px-6 space-y-10 xl:space-y-16">
-      <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16 items-center">
-        <div className="flex flex-col justify-center items-center text-center">
+    <section className="relative w-full pt-12 md:pt-24 lg:pt-32 lg:pb-32 bg-black text-gray-50 flex justify-center">
+  <div className="absolute inset-0 w-full h-full flex justify-start">
+    <video autoPlay loop muted playsInline className="object-cover">
+      <source src="/img/4439-178898286.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div className="container relative px-4 md:px-6 space-y-10 xl:space-y-16">
+    <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16 items-center">
+      <div className="flex flex-col justify-center items-center text-center">
           <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
             3D Art
           </h1>
@@ -49,9 +54,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-full py-12 md:py-24 lg:py-32 lg:pb-32 bg-gray-100 dark:bg-gray-800 flex justify-center" id="about">
-        <div className="container grid items-center justify-center gap-4 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
-          <div className="space-y-2">
+      <section className="w-full py-12 md:py-24 lg:py-32 lg:pb-32 bg-gradient-to-b flex justify-center" id="about">
+  <div className="container grid items-center justify-center gap-4 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
+    <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">대표 작업물</h2>
             <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               Im a full-stack developer with over 5 years of experience building web applications. I specialize in
@@ -69,115 +74,66 @@ export default function Home() {
         </div>
       </section>
       <section className="w-full py-12 md:py-24 lg:py-32 lg:pb-32 flex justify-center" id="projects">
-        <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Projects</h2>
-              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Check out some of the projects Ive worked on.
-              </p>
-            </div>
-          </div>
-          <div className="mx-auto grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:max-w-5xl lg:grid-cols-3">
-            <Link
-              className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800"
-              href="#"
-            >
-              <img
-                alt="Project"
-                className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110"
-                height="310"
-                src="/placeholder.svg"
-                width="550"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
-                <h3 className="text-lg font-bold text-gray-50">Project 1</h3>
-                <p className="mt-1 text-sm text-gray-400">A web application built with React and Node.js.</p>
-              </div>
-            </Link>
-            <Link
-              className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800"
-              href="#"
-            >
-              <img
-                alt="Project"
-                className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110"
-                height="310"
-                src="/placeholder.svg"
-                width="550"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
-                <h3 className="text-lg font-bold text-gray-50">Project 2</h3>
-                <p className="mt-1 text-sm text-gray-400">A mobile app built with React Native.</p>
-              </div>
-            </Link>
-            <Link
-              className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800"
-              href="#"
-            >
-              <img
-                alt="Project"
-                className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110"
-                height="310"
-                src="/placeholder.svg"
-                width="550"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
-                <h3 className="text-lg font-bold text-gray-50">Project 3</h3>
-                <p className="mt-1 text-sm text-gray-400">A desktop application built with Electron.</p>
-              </div>
-            </Link>
-            <Link
-              className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800"
-              href="#"
-            >
-              <img
-                alt="Project"
-                className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110"
-                height="310"
-                src="/placeholder.svg"
-                width="550"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
-                <h3 className="text-lg font-bold text-gray-50">Project 4</h3>
-                <p className="mt-1 text-sm text-gray-400">A web application built with Next.js.</p>
-              </div>
-            </Link>
-            <Link
-              className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800"
-              href="#"
-            >
-              <img
-                alt="Project"
-                className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110"
-                height="310"
-                src="/placeholder.svg"
-                width="550"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
-                <h3 className="text-lg font-bold text-gray-50">Project 5</h3>
-                <p className="mt-1 text-sm text-gray-400">A web application built with Vue.js.</p>
-              </div>
-            </Link>
-            <Link
-              className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800"
-              href="#"
-            >
-              <img
-                alt="Project"
-                className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110"
-                height="310"
-                src="/placeholder.svg"
-                width="550"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
-                <h3 className="text-lg font-bold text-gray-50">Project 6</h3>
-                <p className="mt-1 text-sm text-gray-400">A web application built with Angular.</p>
-              </div>
-            </Link>
-          </div>
+  <div className="container px-4 md:px-6">
+    <div className="flex flex-col items-center justify-center space-y-4 text-center">
+      <div className="space-y-2">
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Projects</h2>
+        <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+          Check out some of the projects I've worked on.
+        </p>
+      </div>
+    </div>
+    <div className="mx-auto grid grid-cols-1 gap-6 sm:grid-cols-2 lg:max-w-5xl">
+      <Link className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800" href="#">
+        <img alt="Project" className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110" height="310" src="/placeholder.svg" width="550" />
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
+          <h3 className="text-lg font-bold text-gray-50">Project 1</h3>
+          <p className="mt-1 text-sm text-gray-400">A web application built with React and Node.js.</p>
         </div>
-      </section>
+      </Link>
+
+      <Link className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800" href="#">
+        <img alt="Project" className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110" height="310" src="/placeholder.svg" width="550" />
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
+          <h3 className="text-lg font-bold text-gray-50">Project 2</h3>
+          <p className="mt-1 text-sm text-gray-400">A mobile app built with React Native.</p>
+        </div>
+      </Link>
+
+      <Link className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800" href="#">
+        <img alt="Project" className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110" height="310" src="/placeholder.svg" width="550" />
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
+          <h3 className="text-lg font-bold text-gray-50">Project 3</h3>
+          <p className="mt-1 text-sm text-gray-400">A desktop application built with Electron.</p>
+        </div>
+      </Link>
+
+      <Link className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800" href="#">
+        <img alt="Project" className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110" height="310" src="/placeholder.svg" width="550" />
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
+          <h3 className="text-lg font-bold text-gray-50">Project 4</h3>
+          <p className="mt-1 text-sm text-gray-400">A web application built with Next.js.</p>
+        </div>
+      </Link>
+
+      <Link className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800" href="#">
+        <img alt="Project" className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110" height="310" src="/placeholder.svg" width="550" />
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
+          <h3 className="text-lg font-bold text-gray-50">Project 5</h3>
+          <p className="mt-1 text-sm text-gray-400">A web application built with Vue.js.</p>
+        </div>
+      </Link>
+
+      <Link className="group relative overflow-hidden rounded-xl bg-gray-100 transition-all hover:scale-[1.02] dark:bg-gray-800" href="#">
+        <img alt="Project" className="aspect-video w-full object-cover object-center transition-all group-hover:scale-110" height="310" src="/placeholder.svg" width="550" />
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent p-4 transition-all group-hover:bg-gray-900/60">
+          <h3 className="text-lg font-bold text-gray-50">Project 6</h3>
+          <p className="mt-1 text-sm text-gray-400">A web application built with Angular.</p>
+        </div>
+      </Link>
+    </div>
+  </div>
+</section>
       <section className="w-full py-12 md:py-24 lg:py-32 lg:pb-32 bg-gray-100 dark:bg-gray-800 flex justify-center" id="contact">
         <div className="container grid items-center justify-center gap-4 px-4 md:px-6">
           <div className="space-y-3">
