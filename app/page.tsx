@@ -41,7 +41,7 @@ export default function Home() {
           </h1>
           <h2 className="text-xl font-medium text-100">김동우</h2>
           <p className="mt-4 max-w-[700px] text-gray-300 md:text-xl">
-            3d 포토폴리오
+            3D 배경 포트폴리오
           </p>
         </div>
             <img
@@ -135,15 +135,15 @@ export default function Home() {
 <section className="w-full py-12 md:py-24 lg:py-32 lg:pb-32 bg-gray-100 dark:bg-gray-800 flex justify-center" id="contact" style={{ background: "linear-gradient(#1D232C, #000000)" }}>
   <div className="container grid items-center justify-center gap-4 px-4 md:px-6">
     <div className="space-y-3">
-    <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-white"> 연락처</h2>
-            <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            연락 불가
+    <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-white text-center">연락처</h2>
+<p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 text-center">
+    연락을 기다리고 있습니다.
             </p>
           </div>
           <div className="mx-auto w-full max-w-sm space-y-2">
             <form className="flex flex-col space-y-2">
-              <Input className="max-w-lg flex-1" placeholder="Name" type="이름" />
-              <Input className="max-w-lg flex-1" placeholder="Email" type="이메일" />
+              <Input className="max-w-lg flex-1" placeholder="이름" type="Name" />
+              <Input className="max-w-lg flex-1" placeholder="이메일" type="Email" />
               <Textarea className="max-w-lg flex-1" placeholder="메시지" />
               <Button type="submit">메시지 보내기</Button>
             </form>
